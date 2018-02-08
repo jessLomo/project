@@ -1,0 +1,248 @@
+body {
+  background: #FAFAFA;
+}
+
+/***************header*****************/
+#header_register {
+  width: 99%;
+  height: 80px;
+  border-bottom: solid 2px #F5F5F5;
+  margin: 5px auto 0 auto;
+  background: white;
+}
+
+#header_register .t_center {
+  width: 980px;
+  margin: 0 auto;
+  height: 82px;
+}
+
+#header_register h1 {
+  height: 70px;
+  width: 240px;
+  background: url("../img/logo.png");
+  text-indent: -1000px;
+}
+
+#header_register .l_resignIn {
+  font-size: 14px;
+  color: #AAA;
+  line-height: 24px;
+  height: 24px;
+  margin-top: 50px;
+}
+
+#header_register .l_resignIn a {
+  font-weight: 600;
+  margin-left: 4px;
+  color: #06c;
+}
+
+/*******************main***************/
+#reg_main {
+  height: 680px;
+  background: url(../img/register_bg);
+}
+
+#reg_main .reg_box {
+  height: 500px;
+  width: 800px;
+  border: 10px solid rgba(0, 0, 0, 0.15);
+  margin: 60px auto;
+  background: white;
+  padding: 20px;
+}
+
+#reg_main .reg_box .reg_left {
+  width: 480px;
+  height: 100%;
+  padding: 10px;
+  border-right: 1px solid #e6e6e6;
+}
+
+#reg_main .reg_box .reg_left h4 {
+  color: #999;
+  height: 40px;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 40px;
+  padding-left: 50px;
+}
+
+#reg_main .reg_box .reg_left #register_box {
+  height: 300px;
+  width: 400px;
+  padding: 50px 20px 0 50px;
+}
+
+#reg_main .reg_box .reg_left #register_box label {
+  display: inline-block;
+  height: 52px;
+  width: 380px;
+  border: 1px solid #e6e6e6;
+  line-height: 52px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #666;
+  vertical-align: top;
+}
+
+#reg_main .reg_box .reg_left #register_box label input {
+  height: 30px;
+  width: 200px;
+  /*border:1px solid #ccc;*/
+  margin-left: 20px;
+  width: 280px;
+}
+
+#reg_main .reg_box .reg_left #register_box span {
+  display: inline-block;
+  width: 127px;
+  height: 52px;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  background: #ECECFB;
+}
+
+#reg_main .reg_box .reg_left #register_box .agree {
+  font-size: 14px;
+  color: #666;
+  margin: 20px 0;
+}
+
+#reg_main .reg_box .reg_left #register_box .agree input {
+  margin-right: 10px;
+}
+
+#reg_main .reg_box .reg_left #register_box .submit-div .submit {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFF;
+  background-color: #FF500B;
+  width: 398px;
+  height: 42px;
+  border: solid 1px #F15C18;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#reg_main .reg_box .reg_right {
+  width: 299px;
+  height: 100%;
+}
+
+#reg_main .reg_box .reg_right .reg_after h4 {
+  font-size: 15px;
+  line-height: 20px;
+  height: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+#reg_main .reg_box .reg_right .reg_after ul li {
+  color: #999;
+  line-height: 24px;
+  margin-bottom: 10px;
+  padding-left: 65px;
+  font-size: 12px;
+  position: relative;
+}
+
+#reg_main .reg_box .reg_right .reg_after ul li i:nth-child(1) {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 30px;
+  top: 2px;
+}
+
+#reg_main .reg_box .reg_right .reg_after ul .ico01 > i {
+  background: url("../img/sprit.png") no-repeat -109px 0;
+}
+
+#reg_main .reg_box .reg_right .reg_after ul .ico02 > i {
+  background: url("../img/sprit.png") no-repeat -152px 0;
+}
+
+#reg_main .reg_box .reg_right .reg_after ul .ico03 > i {
+  background: url("../img/sprit.png") no-repeat -200px 0;
+}
+
+#reg_main .reg_box .reg_right .reg_after ul .ico04 > i {
+  background: url("../img/sprit.png") no-repeat -240px 0;
+}
+
+#reg_main .reg_box .reg_right .reg_after ul .ico05 > i {
+  background: url("../img/sprit.png") no-repeat -280px 0;
+}
+
+/*****************footer********************/
+#footer {
+  height: 220px;
+  background: #343A3A;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#footer p {
+  word-spacing: 5px;
+  padding: 15px 0 0;
+}
+
+#footer p:nth-child(2) > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -320px 0;
+  width: 20px;
+  height: 20px;
+  left: 205px;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer .footer_img {
+  padding: 20px 0 10px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#footer .footer_img li {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img1 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat 0 -32px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img2 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -133px -32px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img3 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -262px -32px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img4 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -385px -32px;
+  width: 108px;
+  height: 40px;
+}

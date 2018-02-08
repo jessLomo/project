@@ -1,0 +1,286 @@
+@charset "UTF-8";
+body {
+  background: #FAFAFA;
+}
+
+/***************header*****************/
+#header_sign {
+  width: 99%;
+  height: 80px;
+  border-bottom: solid 2px #F5F5F5;
+  margin: 5px auto 0 auto;
+  background: white;
+}
+
+#header_sign .container {
+  height: 82px;
+}
+
+#header_sign .container .t_center {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#header_sign h1 {
+  height: 70px;
+  width: 240px;
+  background: url("../img/logo.png");
+  text-indent: -1000px;
+}
+
+#header_sign .l_signIn {
+  font-size: 14px;
+  color: #AAA;
+  line-height: 20px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+#header_sign .l_signIn span {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#header_sign .l_signIn span img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#header_sign .l_signIn span a {
+  color: #06C;
+  font-weight: bold;
+}
+
+/****************main*******************/
+#sign_main {
+  width: 980px;
+  margin: 0 auto;
+  height: 580px;
+}
+
+#sign_main .main_l {
+  margin-top: 50px;
+}
+
+#sign_main .main_r {
+  width: 450px;
+  height: 480px;
+  background: white;
+  margin-top: 30px;
+  position: relative;
+  padding: 18px 18px 28px 18px;
+}
+
+#sign_main .main_r > i {
+  width: 18px;
+  height: 10px;
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -350px 0;
+  left: 152px;
+  top: -9px;
+}
+
+#sign_main .main_r .tab_nav {
+  border-bottom: 1px solid #eee;
+}
+
+#sign_main .main_r .tab_nav a {
+  font-size: 18px;
+  color: #999999;
+  line-height: 24px;
+  position: relative;
+  z-index: 1;
+  font-family: 微软雅黑;
+  padding: 0 60px 13px 60px;
+  display: inline-block;
+}
+
+#sign_main .main_r .tab_nav a:hover {
+  border-bottom: 3px solid #FF500B;
+  color: #FF500B;
+}
+
+#sign_main .main_r .tab_nav a:hover > i {
+  display: block;
+}
+
+#sign_main .main_r .tab_nav a i {
+  border-width: 7px;
+  border-color: #FF500B transparent transparent transparent;
+  border-style: solid dashed dashed dashed;
+  position: absolute;
+  left: 92px;
+  top: 39px;
+  display: none;
+}
+
+#sign_main .main_r .tab_nav a .phone_i {
+  left: 116px;
+  top: 39px;
+}
+
+#sign_main .main_r #sign_box {
+  height: 300px;
+  width: 400px;
+  padding: 50px 20px 0 50px;
+}
+
+#sign_main .main_r #sign_box label {
+  display: inline-block;
+  height: 52px;
+  width: 380px;
+  border: 1px solid #e6e6e6;
+  line-height: 52px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #666;
+  vertical-align: top;
+}
+
+#sign_main .main_r #sign_box label input {
+  height: 30px;
+  width: 200px;
+  /*border:1px solid #ccc;*/
+  margin-left: 20px;
+  width: 280px;
+}
+
+#sign_main .main_r #sign_box span {
+  display: inline-block;
+  width: 127px;
+  height: 52px;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  background: #ECECFB;
+}
+
+#sign_main .main_r #sign_box .agree {
+  font-size: 14px;
+  color: #666;
+  margin: 20px 0;
+}
+
+#sign_main .main_r #sign_box .agree input {
+  margin-right: 10px;
+}
+
+#sign_main .main_r #sign_box .agree .forget {
+  color: #06C;
+  margin-left: 234px;
+}
+
+#sign_main .main_r #sign_box .submit-div .submit {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFF;
+  background-color: #FF500B;
+  width: 398px;
+  height: 42px;
+  border: solid 1px #F15C18;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#sign_main .main_r #sign_box h4 {
+  font-size: 12px;
+  line-height: 20px;
+  color: #333;
+  font-weight: 600;
+  height: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#sign_main .main_r #sign_box .wechat {
+  display: block;
+  font-size: 12px;
+  text-decoration: none;
+  color: #AAA;
+  vertical-align: top;
+  display: inline-block;
+  height: 32px;
+  margin-right: 24px;
+  padding-left: 38px;
+  position: relative;
+  line-height: 32px;
+}
+
+#sign_main .main_r #sign_box .wechat i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -379px 0;
+  width: 35px;
+  height: 32px;
+  left: 0;
+  top: 0;
+}
+
+/*****************footer********************/
+#footer {
+  height: 220px;
+  background: #343A3A;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#footer p {
+  word-spacing: 5px;
+  padding: 15px 0 0;
+}
+
+#footer p:nth-child(2) > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -320px 0;
+  width: 20px;
+  height: 20px;
+  left: 205px;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer .footer_img {
+  padding: 20px 0 10px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#footer .footer_img li {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img1 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat 0 -32px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img2 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -133px -32px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img3 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -262px -32px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img4 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -385px -32px;
+  width: 108px;
+  height: 40px;
+}

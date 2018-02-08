@@ -1,0 +1,90 @@
+body{background:#FAFAFA;}
+/***************header*****************/
+#header_sign{
+    width: 99%;
+    height: 80px;
+    border-bottom: solid 2px #F5F5F5;
+    margin: 5px auto 0 auto;
+    background:white;
+    .container{
+        height: 82px;
+        .t_center{
+            width: 980px;margin:0 auto;
+        }
+    }
+    h1{height:70px;width:240px;background:url('../img/logo.png');text-indent:-1000px;}
+    .l_signIn{
+        font-size: 14px;color: #AAA;line-height: 20px;height: 40px;margin-top: 30px;
+        span{
+            display:inline-block;vertical-align:top;
+            img{width: 40px;height: 40px;border-radius:100%;}
+            a{color: #06C;font-weight:bold;}
+        }
+    }
+}
+/****************main*******************/
+#sign_main{
+    width: 980px;margin:0 auto;height: 580px;
+    .main_l{margin-top:50px;}
+    .main_r{
+        width: 450px;height: 480px;background:white;margin-top:30px;position:relative;
+        padding:18px 18px 28px 18px;
+        >i{width: 18px;height: 10px;position:absolute;background:url("../img/sprit.png") no-repeat -350px 0;left:152px;top:-9px;}
+        .tab_nav{
+            border-bottom:1px solid #eee;
+            a{
+            font-size: 18px;color: rgb(153, 153, 153);line-height: 24px;position: relative;z-index: 1;font-family: 微软雅黑;padding:0 60px 13px 60px;display:inline-block;
+            &:hover{border-bottom:3px solid #FF500B;color:#FF500B;}
+            &:hover >i{display:block;}
+                i{
+                    border-width:7px;border-color:#FF500B transparent transparent transparent;
+                    border-style:solid dashed dashed dashed;position:absolute;left:92px;top:39px;display:none;
+                }
+                .phone_i{left:116px;top:39px;}
+            }
+        }
+         #sign_box{
+                height: 300px;width: 400px;
+                padding:50px 20px 0 50px;
+                label{
+                    display:inline-block;height: 52px;width: 380px;border:1px solid #e6e6e6;line-height:52px;padding-left:20px;font-size: 14px;color: #666;vertical-align:top;
+                    input{height: 30px;width: 200px;/*border:1px solid #ccc;*/margin-left:20px;width: 280px;}
+                }
+                span{display:inline-block;width: 127px;height: 52px;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;background:#ECECFB;}
+                .agree{
+                    font-size: 14px;color: #666;margin:20px 0;
+                    input{margin-right:10px;}
+                    .forget{color:#06C;margin-left:234px;}
+                }
+                .submit-div{
+                    .submit{font-size: 16px;font-weight: 600;color: #FFF;background-color: #FF500B;width: 398px;height: 42px;border: solid 1px #F15C18;border-radius: 3px;cursor: pointer;
+                    }
+                }
+                h4{font-size: 12px;line-height: 20px;color: #333;font-weight: 600;height: 20px;margin-bottom: 10px;margin-top:20px;}     
+                .wechat{
+                    display:block;font-size: 12px;text-decoration: none;color: #AAA;vertical-align: top;display: inline-block;height: 32px;margin-right: 24px;padding-left:38px;position:relative;line-height: 32px;
+                    i{position:absolute;background:url("../img/sprit.png") no-repeat -379px 0;width: 35px;height: 32px;left:0;top:0;}
+                }
+            }
+
+    }
+}
+/*****************footer********************/
+#footer{
+        height: 220px;background:#343A3A;color:white;font-size: 12px;
+        text-align: center;padding-top:30px;padding-bottom:10px;
+        p{word-spacing: 5px;padding: 15px 0 0;}
+        p:nth-child(2)>i{position:absolute;background:url('../img/sprit.png') no-repeat -320px 0;width: 20px;height: 20px;left:205px;}
+        a{color:white;}
+        .footer_img{
+            padding: 20px 0 10px;width: 600px;margin: 0 auto;
+            li{
+                display: block;float: left;margin-right: 20px;width: 108px;height: 40px;
+                .img1>i{position:absolute;background:url('../img/sprit.png') no-repeat 0 -32px;width:108px;height: 40px;}
+                .img2>i{position:absolute;background:url('../img/sprit.png') no-repeat -133px -32px;width:108px;height: 40px;}
+                .img3>i{position:absolute;background:url('../img/sprit.png') no-repeat -262px -32px;width:108px;height: 40px;}
+                .img4>i{position:absolute;background:url('../img/sprit.png') no-repeat -385px -32px;width:108px;height: 40px;}
+            }
+            
+        }
+}
