@@ -380,6 +380,10 @@
 }
 
 /**************************goods********************/
+#main .goodsList .list {
+  height: 1116px;
+}
+
 #main .goodsList .list .item {
   display: block;
   float: left;
@@ -423,6 +427,7 @@
   padding: 0 10px;
   margin-top: 5px;
   white-space: nowrap;
+  margin-left: 6px;
 }
 
 #main .goodsList .list .item .goods_desc {
@@ -530,6 +535,37 @@
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
+}
+
+#main .goodsList .goods_page {
+  width: 120px;
+  margin: 10px auto;
+}
+
+#main .goodsList .goods_page span {
+  background-color: #FFF;
+  text-align: center;
+  display: inline-block;
+  min-width: 18px;
+  padding: 4px;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #AAA;
+  margin-right: 10px;
+}
+
+#main .goodsList .goods_page span .active {
+  color: #FFF;
+  font-weight: bold;
+  background-color: #FF6D02;
+  border-color: #F65617;
+  position: relative;
+  z-index: 2;
 }
 
 /******************footer:ccti+link***********/

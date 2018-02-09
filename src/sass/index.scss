@@ -169,10 +169,9 @@ $t_border:1px solid #E5E5E5;
     .container{
        .slide{
         position:relative;width:785px;height:400px;overflow:hidden;margin-left:170px;z-index:-1;
-        ul{
-            position:absolute;overflow:hidden;
-            li{float:left;}
-        }
+            ul{
+                li{position:absolute;}
+            }
        }
     }
 }
@@ -195,6 +194,32 @@ $t_border:1px solid #E5E5E5;
                     float:left;
                     a{
                     color: #333;display:block;padding:0 16px;height: 30px;line-height: 30px;font-size:12px;background:white;
+                    }
+                }
+            }
+        }
+        .food_side{
+            position:relative;
+            >a{
+                img{z-index:-10;}
+            }
+            .food_word{
+                position:absolute;top:238px;
+                
+            }
+        }
+        .g_list{
+            width: 1000px;height: 474px;overflow:hidden;
+            li{
+                height: 230px;border: solid #EEE;border-width: 0 1px 1px 0;background:white;width: 165px;padding: 6px 17px 0;
+                >a{
+                    display:inline-block;color: #333;height: 140px;padding: 15px 0 0 20px;margin-bottom: 4px;width: 130px;height: 130px;
+                        img{width: 130px;height: 130px;} 
+                }
+                p{
+                    color: #E4393C;font-size: 15px;margin-top:10px;text-align:center;
+                    a{
+                      color: #333;font-size:12px;
                     }
                 }
             }

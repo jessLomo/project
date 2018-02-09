@@ -72,6 +72,7 @@ body {
   height: 300px;
   width: 400px;
   padding: 50px 20px 0 50px;
+  position: relative;
 }
 
 #reg_main .reg_box .reg_left #register_box label {
@@ -92,6 +93,12 @@ body {
   /*border:1px solid #ccc;*/
   margin-left: 20px;
   width: 280px;
+}
+
+#reg_main .reg_box .reg_left #register_box .output {
+  position: absolute;
+  left: 402px;
+  top: 67px;
 }
 
 #reg_main .reg_box .reg_left #register_box span {

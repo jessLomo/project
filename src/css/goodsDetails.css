@@ -279,6 +279,7 @@
   background: #343A3A;
   width: 170px;
   position: absolute;
+  display: none;
   /***************三级导航************/
 }
 
@@ -376,128 +377,6 @@
 #nav .menu .menu2 .menu2_ad img {
   border-left: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-}
-
-/**********************banner***************/
-#banner .container .slide {
-  position: relative;
-  width: 785px;
-  height: 400px;
-  overflow: hidden;
-  margin-left: 170px;
-  z-index: -1;
-}
-
-#banner .container .slide ul li {
-  position: absolute;
-}
-
-/*************************main****************/
-#main {
-  background: #F2F2F2;
-}
-
-#main .fenjie {
-  padding-top: 10px;
-}
-
-#main .food {
-  height: 511px;
-  margin-top: 10px;
-}
-
-#main .food .title_food {
-  border-bottom: 2px solid #FE5621;
-}
-
-#main .food .title_food h2 {
-  position: relative;
-  display: inline;
-  padding-left: 40px;
-  font-size: 20px;
-  line-height: 30px;
-  color: #333;
-}
-
-#main .food .title_food h2 > i {
-  position: absolute;
-  background: #FEAA90 url("../img/sprit.png") no-repeat -462px 0;
-  width: 35px;
-  height: 30px;
-  left: 0;
-}
-
-#main .food .title_food ul {
-  border: solid 1px #ededed;
-}
-
-#main .food .title_food ul li {
-  float: left;
-}
-
-#main .food .title_food ul li a {
-  color: #333;
-  display: block;
-  padding: 0 16px;
-  height: 30px;
-  line-height: 30px;
-  font-size: 12px;
-  background: white;
-}
-
-#main .food .food_side {
-  position: relative;
-}
-
-#main .food .food_side > a img {
-  z-index: -10;
-}
-
-#main .food .food_side .food_word {
-  position: absolute;
-  top: 238px;
-}
-
-#main .food .g_list {
-  width: 1000px;
-  height: 474px;
-  overflow: hidden;
-}
-
-#main .food .g_list li {
-  height: 230px;
-  border: solid #EEE;
-  border-width: 0 1px 1px 0;
-  background: white;
-  width: 165px;
-  padding: 6px 17px 0;
-}
-
-#main .food .g_list li > a {
-  display: inline-block;
-  color: #333;
-  height: 140px;
-  padding: 15px 0 0 20px;
-  margin-bottom: 4px;
-  width: 130px;
-  height: 130px;
-}
-
-#main .food .g_list li > a img {
-  width: 130px;
-  height: 130px;
-}
-
-#main .food .g_list li p {
-  color: #E4393C;
-  font-size: 15px;
-  margin-top: 10px;
-  text-align: center;
-}
-
-#main .food .g_list li p a {
-  color: #333;
-  font-size: 12px;
 }
 
 /******************footer:ccti+link***********/
@@ -659,4 +538,114 @@
   background: url("../img/sprit.png") no-repeat -385px -32px;
   width: 108px;
   height: 40px;
+}
+
+/***************main****************/
+#main {
+  background: #F2F2F2;
+}
+
+#main .container {
+  border-bottom: 1px solid #f2f2f2;
+  position: relative;
+  z-index: 2;
+  min-height: 503px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #FFF;
+}
+
+#main .container .main_l .big_pic img {
+  width: 360px;
+  height: 360px;
+}
+
+#main .container .main_l .tab_pic {
+  margin-left: 20px;
+}
+
+#main .container .main_l .tab_pic a {
+  width: 50px;
+  height: 50px;
+  background-color: #FFF;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 2px;
+  overflow: hidden;
+  border: solid 1px #F5F5F5;
+}
+
+#main .container .main_l .tab_pic a img {
+  width: 50px;
+  height: 50px;
+}
+
+#main .container .main_c {
+  width: 640px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#main .container .main_c .g_name {
+  font-size: 20px;
+  margin-bottom: 4px;
+  color: #000;
+  font-weight: bold;
+}
+
+#main .container .main_c .g_desc {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FF7300;
+}
+
+#main .container .main_c .g_price {
+  vertical-align: baseline;
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #FF5300;
+}
+
+#main .container .main_c div {
+  width: 640px;
+  height: 60px;
+  background: url("../img/details_bg");
+  margin-top: 20px;
+}
+
+#main .container .main_c p {
+  margin-top: 20px;
+}
+
+#main .container .main_c p span {
+  text-align: left;
+  width: 60px;
+  color: #777;
+  display: inline-block;
+}
+
+#main .container .main_c p input {
+  width: 40px;
+  border: 1px solid #e1e1e1;
+}
+
+#main .container .main_c p button:first-child {
+  background-color: #FF500B;
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+#main .container .main_c p button:last-child {
+  background-color: #FFF5EC;
+  color: #FF6D02;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
 }

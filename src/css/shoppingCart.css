@@ -1,0 +1,180 @@
+/*****************topbar******************/
+#topbar {
+  font-size: 12px;
+  background: #F6F6F6;
+  height: 30px;
+  border-bottom: 1px solid #E5E5E5;
+  border-top: 1px solid #E5E5E5;
+}
+
+#topbar a {
+  color: #555;
+}
+
+#topbar .sign {
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+#topbar .sign a:nth-child(2) {
+  color: #FF5B57;
+}
+
+#topbar .menu {
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+#topbar .menu > li {
+  float: left;
+  border-left: 1px solid #E5E5E5;
+  position: relative;
+}
+
+#topbar .menu > li:hover ul {
+  display: block;
+}
+
+#topbar .menu > li:hover .top_la {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+#topbar .menu > li:hover .top_menu2 {
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#topbar .menu > li > a {
+  padding: 3px 22px 5px 10px;
+}
+
+#topbar .menu > li > a > i {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  width: 10px;
+  height: 10px;
+  background: url(../img/sprit.png) no-repeat 0 0;
+}
+
+#topbar .menu > li ul {
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  background: white;
+  width: 80px;
+  display: none;
+  z-index: 1000;
+}
+
+#topbar .menu > li ul li:hover a {
+  background: #F6F6F6;
+}
+
+#topbar .menu > li ul li a {
+  display: block;
+  padding: 8px 8px;
+}
+
+#topbar .supply {
+  padding-top: 3px;
+  display: inline-block;
+}
+
+#topbar .supply a {
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+/******************header*************/
+#header .container {
+  height: 120px;
+  border-bottom: solid 1px #F15C18;
+}
+
+#header .container h1 {
+  height: 70px;
+  width: 240px;
+  background: url("../img/logo.png");
+  text-indent: -1000px;
+  margin-top: 20px;
+}
+
+#header .container .search {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 286px;
+}
+
+/*****************footer********************/
+#footer {
+  height: 220px;
+  background: #343A3A;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#footer p {
+  word-spacing: 5px;
+  padding: 15px 0 0;
+}
+
+#footer p:nth-child(2) > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -320px 0;
+  width: 20px;
+  height: 20px;
+  left: 205px;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer .footer_img {
+  padding: 20px 0 10px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#footer .footer_img li {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img1 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat 0 -32px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img2 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -133px -32px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img3 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -262px -32px;
+  width: 108px;
+  height: 40px;
+}
+
+#footer .footer_img li .img4 > i {
+  position: absolute;
+  background: url("../img/sprit.png") no-repeat -385px -32px;
+  width: 108px;
+  height: 40px;
+}
+
+/***************main***************/
